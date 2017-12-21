@@ -14,6 +14,7 @@
 
 #### [PC维护指南](guide)
 * [macOS](guide/macOS)
+* [linux](guide/linux)
 
 #### 其他服务
 * [电路开光服务](kaiguang)
