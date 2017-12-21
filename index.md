@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to PC Service
+欢迎来到PC Service
 
-You can use the [editor on GitHub](https://github.com/fdupcs/pcsweb/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+#### 值班室
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+每晚18:00～21:00，周末不休，节假日不修
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 上门预约
+请扫描以下二维码联系
 
-```markdown
-Syntax highlighted code block
+![这里应该是微信号](weichat.png)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+#### [PC维护指南](guide)
+* [macOS](guide/macOS)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fdupcs/pcsweb/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### 其他服务
+* [电路开光服务](kaiguang)
