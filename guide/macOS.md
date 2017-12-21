@@ -3,18 +3,18 @@
 
 ### 系统维护(OS maintenance)
 - #### 重装系统(Reinstall Operating System)
-1.下载操作系统(Download the OS)
-  从AppStore搜索macOS，找到所需版本下载，但是不要安装
+1. 下载操作系统(Download the OS)  
+  从AppStore搜索macOS，找到所需版本下载，但是不要安装  
   Search AppStore for desired version and just download it (without installing)  
-2.制作启动盘(Make an install media)
+2. 制作启动盘(Make an install media)  
   进入终端 Open the Terminal
   ```shell
   $ /Applications/<actual path>/Contents/Resources/createinstallmedia --volume <mount point>
   # e.g.
   $ /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/SYSTEM
   ```
-3.安装(Install)
-  插上安装盘，重启电脑，按下`option`键，按向导安装
+3. 安装(Install)
+  插上安装盘，重启电脑，按下`option`键，按向导安装  
   Insert install media. Reboot and hold `option`. Then, follow the wizard.
 - #### 进入单用户模式(Single User Mode)
   Reboot `command`+`s`
@@ -22,6 +22,18 @@
   Reboot `command`+`r`
 - #### 恢复密码(Reset password)
   > 无可奉告
+
+- #### 制作windows启动盘(Make a bootable windows installer)
+  ```shell
+  $ diskutil list
+  # partition the media
+  $ diskutil partitionDisk <device> MBR "MS-DOS FAT32" [<name> <size>]
+  # e.g.
+  $ diskutil partitionDisk /dev/disk2 MBR "MS-DOS FAT32" "SYSTEM" 50% MS-DOS "DATA" R
+  # set boot flag
+  $ fdisk -e <device>  # Activate the part. See instructions in fdisk
+  $ cp <windows install file> <the disk>
+  ```
 
 ### 外接设备管理(External Device)
 - #### 查看磁盘(show disks)

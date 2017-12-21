@@ -4,7 +4,7 @@
 ### Ubuntu
   - Partition Process
   ```shell
-  gparted
+  $ gparted
   ```
 
 ### Arch
