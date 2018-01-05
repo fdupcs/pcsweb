@@ -4,7 +4,7 @@
 1. 下载系统映像(Download Windows Image)  
     [itellyou](https://msdn.itellyou.cn/)  
     [豆豆分享](https://www.iruanmi.com/msdn/)  
-    [MVLS·Fudan University](mvls.fudan.edu.cn) (Only internal network available)  
+    [MVLS·Fudan University](http://mvls.fudan.edu.cn) (Only internal network available)  
     *you must download the volume license version, otherwise you need a serial number to activate windows in following setp.*
 2. 制作启动U盘(Make a bootable Windows install device)  
   For windows,you can use UltralISO to write into your disk.  
