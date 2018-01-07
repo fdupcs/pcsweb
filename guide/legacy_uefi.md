@@ -4,7 +4,7 @@
 
 ##### Before we start, you must pay attention to this thing and get ready:  
 * Back up your data, especially data in system volumn.
-* Reinstall windows. You can refer to this section: [Reinstall Windows](windows-reinstall)
+* Reinstall windows. You can refer to this section: [Reinstall Windows](windows-reinstall.md)
 * You have to know what is [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) and legacy boot mode.
 * Windows 7 and earlier version of Windows cannot boot when in UEFI mode.
 <br>
