@@ -51,7 +51,7 @@
     e. This is a very important step. You must choose a disk for windows to install in.
     ![](image/disk.png)  
     If you are using a [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) boot mode, you   can just find the disk old windows was installed and format it. You can at the same time delete this volumn and create a new one. One thing not recommended is that you can delete RE, ESP and MSR volumn at the same time if you want to install cleanlier.  
-    If you are using Legacy BIOS mode you can do the same thing. But we recommend you to turn to UEFI as long as you can. If you are using Windows & at the same time, to keep is also a good idea. If you want to turn into UEFI, you may reference this section:[Switch between UEFI and Legacy](legacy_uefi).  
+    If you are using Legacy BIOS mode you can do the same thing. But we recommend you to turn to UEFI as long as you can. If you are using Windows & at the same time, to keep is also a good idea. If you want to turn into UEFI, you may reference this section:[Switch between UEFI and Legacy](legacy_uefi.md).  
     After right operation, just next and the install starts.Please wait.(If you don't mind I suggest you should talk with the owner especially when owner is a girl?)  
     f. When you see this circle, you should be prepared to help the owner to  set user information.And let this guy mute may be a good choice.  
     ![](image/circle.png)  
