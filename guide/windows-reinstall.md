@@ -48,12 +48,18 @@
     ```
     If you are sick with terminal, you can use [Dism++](http://http://www.chuyu.me/zh-Hans/index.html). Run it in PE and you will get the same result. If the owner makes sure that this system is genuine, you can install a same version and it will activate itself.  
     d. Accept the license and choose Install Windows when asked install type. DO NOT CHOOSE UPDATE OTHERWISE YOU CAN GET NOTHING.  
-    e.This is a very important step. You must choose a disk for windows to install in.
+    e. This is a very important step. You must choose a disk for windows to install in.
     ![](image/disk.png)  
     If you are using a [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) boot mode, you   can just find the disk old windows was installed and format it. You can at the same time delete this volumn and create a new one. One thing not recommended is that you can delete RE, ESP and MSR volumn at the same time if you want to install cleanlier.  
     If you are using Legacy BIOS mode you can do the same thing. But we recommend you to turn to UEFI as long as you can. If you are using Windows & at the same time, to keep is also a good idea. If you want to turn into UEFI, you may reference this section:[Switch between UEFI and Legacy](???).  
-    After right operation, just next and the install starts.  
-    \<to be continue>
+    After right operation, just next and the install starts.Please wait.(If you don't mind I suggest you should talk with the owner especially when owner is a girl?)  
+    f. When you see this circle, you should be prepared to help the owner to  set user information.And let this guy mute may be a good choice.  
+    ![](image/circle.png)  
+    Just follow the wizard.  
+    g. Install drivers. You may download the [Driver Genius(司机精灵)](http://www.drivergenius.com/) to help you to do the same thing. And JUST BE CAREFUL WHEN INSTALLING THIS GARBAGE.  
+    ![](image/drivergenius.png)  
+    Once you finish using it, don't be hesitate and just let it bye.  
+    And now you have installed a new Windows 10. For Windows 7 this is similar and 
 
     
 
