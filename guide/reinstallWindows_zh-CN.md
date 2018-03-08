@@ -73,7 +73,7 @@ c. **重要：在此步骤中，你需要选择安装的目标驱动器**
 ![](image/disk.png)
 
 如果你使用[UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)引导模式，你可以找到原先Windows操作系统的系统分区并将其格式化，然后选择这个分区进行安装。你也可以选择删除这个分区并重新创建一个。如果你希望能够更加干净的重新安装Windows操作系统的话，你可以选择删去RE、ESP和MSR分区（*但请不要删去OEM分区*）。		
-如果你使用传统引导方式，你也可以进行类似的操作。但强烈建议转换成UEFI引导。尤其是当你使用Windows和Linux双系统时，使用UEFI引导将是必须的。关于转换到UEFI引导，请参见[从Legacy到UEFI](legacy_uefi.md).   
+如果你使用传统引导方式，你也可以进行类似的操作。但强烈建议转换成UEFI引导。但当你使用Windows和Linux双系统时，可能保持Legacy引导是应该的。关于转换到UEFI引导，请参见[从Legacy到UEFI](legacy_uefi.md).   
 在完成这一步操作后，请等待安装程序运行。  
 d. 当你看到以下界面时，请根据引导协助机主完成账户信息的完善。  
 
