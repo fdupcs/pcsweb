@@ -1,0 +1,20 @@
+{
+  "name": "pcsweb",
+  "description": "复旦 PC Service 服务队官方网站",
+  "version": "1.0.0",
+  "license": "CC BY-NC 4.0",
+  "type": "module",
+  "scripts": {
+    "build": "vuepress-vite build src",
+    "clean-dev": "vuepress-vite dev src --clean-cache --host localhost",
+    "dev": "vuepress-vite dev src --host localhost",
+    "remote-dev": "vuepress-vite dev src",
+    "update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "vue": "^3.5.5",
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-hope": "2.0.0-rc.52"
+  }
+}
