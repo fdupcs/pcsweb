@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://pcservice.top",
+  hostname: "https://fdupcs.top",
 
   author: {
     name: "PCS",
@@ -35,15 +35,15 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       "PCS 服务队公众号": {
-        icon: "https://pcservices.top/assets/medias/PCS.svg",
+        icon: "https://fdupcs.top/assets/medias/PCS.svg",
         link: "",
       },
       "CPS 婚介所公众号": {
-        icon: "https://pcservices.top/assets/medias/CPS.svg",
+        icon: "https://fdupcs.top/assets/medias/CPS.svg",
         link: "",
       },
       "PCService 日常答疑群": {
-        icon: "https://pcservices.top/assets/medias/QQ.svg",
+        icon: "https://fdupcs.top/assets/medias/QQ.svg",
         link: "https://qm.qq.com/q/BqsEh9fGi6",
       },
     },
