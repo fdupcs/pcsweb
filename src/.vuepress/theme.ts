@@ -31,7 +31,7 @@ export default hopeTheme({
   displayFooter: true,
 
   blog: {
-    description: "PCS 志愿服务队",
+    description: "PCS 志愿者服务队",
     intro: "/intro.html",
     medias: {
       "PCS 服务队公众号": {
@@ -42,7 +42,7 @@ export default hopeTheme({
         icon: "https://pcservices.top/assets/medias/CPS.svg",
         link: "",
       },
-      "PC Service 日常答疑群": {
+      "PCService 日常答疑群": {
         icon: "https://pcservices.top/assets/medias/QQ.svg",
         link: "https://qm.qq.com/q/BqsEh9fGi6",
       },
@@ -64,7 +64,6 @@ export default hopeTheme({
       categoryId: "DIC_kwDOBtq2zc4CiKkJ",
     },
 
-    mdEnhance: {
-    },
+    mdEnhance: {},
   },
 });
