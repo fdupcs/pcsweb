@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/assets/logo.png",
+  logo: "/assets/icon.png",
 
   repo: "fdupcs/pcsweb",
 
@@ -25,13 +25,14 @@ export default hopeTheme({
 
   license: "CC BY-NC 4.0",
 
-  favicon: "/assets/logo.png",
+  favicon: "/assets/icon.png",
 
   footer: "PCS 服务队官方网站",
   displayFooter: true,
 
   blog: {
     description: "PCS 志愿者服务队",
+    avatar: "/assets/logo.png",
     intro: "/intro.html",
     medias: {
       "PCS 服务队公众号": {
