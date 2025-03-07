@@ -9,9 +9,7 @@ export default sidebar({
       link: "/guides/",
       prefix: "/guides/",
       collapsible: true,
-      children: [
-        "test",
-      ]
-    }
-  ]
+      children: ["spyder-usage"],
+    },
+  ],
 });

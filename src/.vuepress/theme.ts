@@ -65,6 +65,8 @@ export default hopeTheme({
       categoryId: "DIC_kwDOBtq2zc4CiKkJ",
     },
 
-    mdEnhance: {},
+    mdEnhance: {
+      hint: true,
+    },
   },
 });
