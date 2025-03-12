@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -31,6 +30,7 @@ jobs:
 
       - name: 安装依赖
         run: |
+          npm install -g corepack@latest
           corepack enable
           pnpm install --frozen-lockfile
 
