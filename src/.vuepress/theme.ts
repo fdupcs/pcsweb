@@ -35,15 +35,19 @@ export default hopeTheme({
     medias: {
       "PCS 服务队公众号": {
         icon: "https://fdupcs.top/assets/medias/PCS.svg",
-        link: "",
+        link: "/contact#pcs-服务队公众号",
       },
       "CPS 婚介所公众号": {
         icon: "https://fdupcs.top/assets/medias/CPS.svg",
-        link: "",
+        link: "/contact#cps-婚介所公众号",
       },
       "PCService 日常答疑群": {
         icon: "https://fdupcs.top/assets/medias/QQ.svg",
         link: "https://qm.qq.com/q/BqsEh9fGi6",
+      },
+      "PCService 频道": {
+        icon: "https://fdupcs.top/assets/medias/QQChannel.svg",
+        link: "https://pd.qq.com/s/ealld0rtu?businessType=5",
       },
     },
   },
@@ -56,6 +60,11 @@ export default hopeTheme({
     hint: true,
     tabs: true,
     spoiler: true,
+    figure: true,
+    imgMark: true,
+    imgSize: true,
+    imgLazyload: true,
+    align: true,
   },
 
   plugins: {
