@@ -2,6 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/guides/": [
+    "/intro",
     "/",
     {
       text: "指南",
@@ -21,5 +22,5 @@ export default sidebar({
     },
     "/contact",
   ],
-  "/": ["/", "/guides/", "contact"],
+  "/": ["/", "intro", "/guides/", "contact"],
 });
