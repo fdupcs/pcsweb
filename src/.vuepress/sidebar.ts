@@ -15,6 +15,7 @@ export default sidebar({
         "c-drive-cleanup",
         "vmware-usage",
         "wsl",
+        "conda",
         "spyder-usage",
       ],
     },
