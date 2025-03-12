@@ -57,13 +57,13 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    comment: {
-      provider: "Giscus",
-      repo: "fdupcs/pcsweb",
-      repoId: "MDEwOlJlcG9zaXRvcnkxMTQ5OTY5NDE=",
-      category: "Q&A",
-      categoryId: "DIC_kwDOBtq2zc4CiKkJ",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "fdupcs/pcsweb",
+    //   repoId: "MDEwOlJlcG9zaXRvcnkxMTQ5OTY5NDE=",
+    //   category: "Q&A",
+    //   categoryId: "DIC_kwDOBtq2zc4CiKkJ",
+    // },
 
     mdEnhance: {
       hint: true,
