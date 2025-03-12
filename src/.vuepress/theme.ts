@@ -11,8 +11,6 @@ export default hopeTheme({
     url: "https://github.com/fdupcs",
   },
 
-  iconAssets: "fontawesome-with-brands",
-
   logo: "/assets/icon.png",
 
   repo: "fdupcs/pcsweb",
@@ -54,8 +52,18 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  markdown: {
+    hint: true,
+    tabs: true,
+    spoiler: true,
+  },
+
   plugins: {
     blog: true,
+
+    icon: {
+      assets: "fontawesome-with-brands",
+    },
 
     // comment: {
     //   provider: "Giscus",
@@ -64,11 +72,5 @@ export default hopeTheme({
     //   category: "Q&A",
     //   categoryId: "DIC_kwDOBtq2zc4CiKkJ",
     // },
-
-    mdEnhance: {
-      hint: true,
-      spoiler: true,
-      tabs: true,
-    },
   },
 });
