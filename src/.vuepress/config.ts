@@ -10,5 +10,4 @@ export default defineUserConfig({
   description: "PCS 服务队官方网站",
 
   theme,
-
 });
