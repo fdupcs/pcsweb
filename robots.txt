@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://pcservice.top/sitemap.xml
+Sitemap: https://fdupcs.top/sitemap.xml
