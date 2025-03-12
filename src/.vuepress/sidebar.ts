@@ -19,5 +19,7 @@ export default sidebar({
         "spyder-usage",
       ],
     },
+    "/contact",
   ],
+  "/": ["/", "/guides/", "contact"],
 });
