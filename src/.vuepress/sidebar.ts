@@ -14,6 +14,7 @@ export default sidebar({
         "unlock-bitlocker",
         "c-drive-cleanup",
         "vmware-usage",
+        "wsl",
         "spyder-usage",
       ],
     },
