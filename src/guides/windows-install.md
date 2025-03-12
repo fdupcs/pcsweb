@@ -2,7 +2,7 @@
 title: Windows 安装教程
 author: 张金超
 isOriginal: true
-icon: microsoft
+icon: fa-brands fa-microsoft
 date: 2025-03-09
 category: 教程
 tag:
