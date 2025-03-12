@@ -67,6 +67,8 @@ export default hopeTheme({
 
     mdEnhance: {
       hint: true,
+      spoiler: true,
+      tabs: true,
     },
   },
 });

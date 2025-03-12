@@ -9,7 +9,13 @@ export default sidebar({
       link: "/guides/",
       prefix: "/guides/",
       collapsible: true,
-      children: ["spyder-usage"],
+      children: [
+        "windows-install",
+        "unlock-bitlocker",
+        "c-drive-cleanup",
+        "vmware-usage",
+        "spyder-usage",
+      ],
     },
   ],
 });
