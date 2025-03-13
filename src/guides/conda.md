@@ -48,7 +48,9 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 选择 Anaconda 的安装路径。
 
 ::: tip 路径选择
+
 路径里最好不要有中文或者带特殊符号（单引号之类的）
+
 ~~用户名最好也这样~~
 :::
 
@@ -85,19 +87,35 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 ```
 
 > 例如，Anaconda 安装在 ``D:\anaconda3``，那么要添加的变量就为
+> ```test
 > D:\anaconda3
 > D:\anaconda3\Scripts
 > D:\anaconda3\Library\bin
+> ```
 
 ![编辑环境变量](./assets/conda/win10.png)
 
 然后依次点击 `确定` 完成设置
 
-::: tip Anaconda 与 Python
-上述操作会将 Anaconda 的 Python 添加到环境变量中。如果系统中已安装 Python，系统会根据环境变量 `Path` 中的顺序查找 Python。**谁在前面，就用谁**。可以用下列命令来查看使用的是哪个 `python`
+::: tip Anaconda 与 Python  
+当你安装 Anaconda 时，其自带的 Python 解释器会被添加到环境变量 `Path` 中。如果系统中已安装其他版本的 Python，系统会按照 `Path` 中的顺序进行查找，**谁在前，谁优先**。  
+
+要查看当前环境中 `python` 的查找顺序，使用以下命令：
+
+::: tabs#shell  
+
+@tab command  
 
 ```cmd
-which python
+where python
+```
+
+@tab PowerShell  
+
+```powershell
+where.exe python
+# 或使用以下命令直接查看当前使用的 Python 路径
+Get-Command python
 ```
 
 :::
@@ -124,7 +142,7 @@ which python
 
 #### 命令行安装（Command Line Installer）
 
-~~有图形界面为什么要用命令行呢~~
+!!有图形界面为什么要用命令行呢!!
 
 下载安装脚本后，在终端中执行以下命令
 
@@ -471,6 +489,19 @@ conda init cmd.exe
 
 @tab PowerShell
 
+以**管理员身份**打开 PowerShell，更改执行策略为 RemoteSigned
+
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
+
+查看当前的执行策略
+
+```powershell
+Get-ExecutionPolicy
+```
+再进行初始化
+
 ```powershell
 conda init powershell
 ```
@@ -489,7 +520,7 @@ conda init bash
 
 :::
 
-也可以一次性所有支持的终端环境进行初始化
+也可以一次性所有支持的终端环境进行初始化（PowerShell 可能需要更改执行策略，见上文 PowerShell 部分）
 
 ```bash
 conda init --all
