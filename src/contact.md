@@ -23,15 +23,13 @@ timeline: false
 ## PCService 日常答疑群
 
 ::: center
-![PCService 日常答疑群](/assets/medias/QQ-light.png#light =25%x25%)
-![PCService 日常答疑群](/assets/medias/QQ-dark.png#dark =25%x25%)
+[![PCService 日常答疑群](/assets/medias/QQ-light.png#light =25%x25%)![PCService 日常答疑群](/assets/medias/QQ-dark.png#dark =25%x25%)](https://qm.qq.com/q/BqsEh9fGi6)
 :::
 
 ## PCService 服务队 QQ 频道
 
 ::: center
-![PCService 服务队 QQ 频道](/assets/medias/QQChannel-light.png#light =25%x25%)
-![PCService 服务队 QQ 频道](/assets/medias/QQChannel-dark.png#dark =25%x25%)
+[![PCService 服务队 QQ 频道](/assets/medias/QQChannel-light.png#light =25%x25%)![PCService 服务队 QQ 频道](/assets/medias/QQChannel-dark.png#dark =25%x25%)](https://pd.qq.com/s/ealld0rtu?businessType=5)
 :::
 
 ## PCService 服务队预约登记小程序
