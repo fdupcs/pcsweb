@@ -56,6 +56,10 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  blogLocales: {
+    intro: "服务队简介",
+  },
+
   markdown: {
     hint: true,
     tabs: true,
