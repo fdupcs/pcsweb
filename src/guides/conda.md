@@ -49,7 +49,7 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 
 ::: tip 路径选择
 
-路径里最好不要有中文或者带特殊符号（单引号之类的）
+路径里最好不要有中文或特殊符号（如单引号）
 
 ~~用户名最好也这样~~
 :::
@@ -87,7 +87,7 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 ```
 
 > 例如，Anaconda 安装在 ``D:\anaconda3``，那么要添加的变量就为
-> ```test
+> ```text
 > D:\anaconda3
 > D:\anaconda3\Scripts
 > D:\anaconda3\Library\bin
