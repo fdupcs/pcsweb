@@ -204,6 +204,13 @@ VMware 在 2023 年已经被博通收购，许可证调整后个人用户可以�
 
 ![桌面](./assets/vmware/image44.png)
 
+如果仍然无法通过拖拽的方式将文件移入虚拟机中，可能尝试再安装一下 `open-vm-tools-desktop`，具体操作为在桌面右键选择 `Open in Terminal` 打开终端，输入以下指令后输入密码完成安装，安装完成后注销虚拟机后再进入即可：
+
+```bash
+sudo apt update
+sudo apt install open-vm-tools-desktop -y
+```
+
 ## 使用 VMware 打开别人给的虚拟机
 
 有时候在课程教学中，教师会在虚拟机中已经安装好一些软件和环境后将虚拟机打包给学生使用，因此无需从头开始装虚拟机，而是直接打开即可。VMware 软件的下载前文已经展示，此处不再赘述。
