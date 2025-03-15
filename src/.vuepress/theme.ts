@@ -78,12 +78,11 @@ export default hopeTheme({
       assets: "fontawesome-with-brands",
     },
 
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "fdupcs/pcsweb",
-    //   repoId: "MDEwOlJlcG9zaXRvcnkxMTQ5OTY5NDE=",
-    //   category: "Q&A",
-    //   categoryId: "DIC_kwDOBtq2zc4CiKkJ",
-    // },
+    comment: {
+      provider: "Waline",
+      serverURL: "pcsweb-waline.vercel.app",
+      requiredMeta: ["nick"],
+      reaction: [],
+    },
   },
 });
