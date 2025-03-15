@@ -520,7 +520,7 @@ conda init bash
 
 :::
 
-也可以一次性所有支持的终端环境进行初始化（PowerShell 可能需要更改执行策略，见上文 PowerShell 部分）
+也可以一次性对所有支持的终端环境进行初始化（PowerShell 可能需要更改执行策略，见上文 PowerShell 部分）
 
 ```bash
 conda init --all
