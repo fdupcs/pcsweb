@@ -6,6 +6,13 @@ article: false
 timeline: false
 ---
 
+## PCS 值班时间与队员专长表
+
+::: center
+[![PCS 值班时间与队员专长表](./assets/schedule-light.png#light =25%x25%)
+![PCS 值班时间与队员专长表](./assets/schedule-dark.png#dark =25%x25%)](https://docs.qq.com/sheet/DZWhiQ3F6V2pKbHRS)
+:::
+
 ## PCS 服务队公众号
 
 ::: center
