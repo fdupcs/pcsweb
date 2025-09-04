@@ -17,7 +17,7 @@ export default defineUserConfig({
   alias: {
     "@theme-hope/components/NormalPage": path.resolve(
       __dirname,
-      "./components/NormalPage.ts"
+      "./components/NormalPage.ts",
     ),
   },
 });

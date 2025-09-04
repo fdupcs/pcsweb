@@ -45,7 +45,7 @@ export default defineComponent({
     const themeLocale = useThemeLocaleData();
 
     const tocEnable = computed(
-      () => frontmatter.value.toc ?? themeLocale.value.toc ?? true
+      () => frontmatter.value.toc ?? themeLocale.value.toc ?? true,
     );
 
     const headerLevels = computed<HeaderLevels>(() => [
@@ -59,7 +59,7 @@ export default defineComponent({
       if (hasGlobalComponent("CommentService")) {
         try {
           const res = await fetch(
-            "https://waline.fdupcs.top/api/comment?type=count"
+            "https://waline.fdupcs.top/api/comment?type=count",
           );
           if (res.ok) canLoadComment.value = true;
         } catch (e) {
@@ -89,7 +89,7 @@ export default defineComponent({
                     src: withBase(frontmatter.value.cover),
                     alt: "",
                     "no-view": "",
-                  })
+                  }),
                 )
               : null,
             h(BreadCrumb),
@@ -106,7 +106,7 @@ export default defineComponent({
                   {
                     before: slots.tocBefore,
                     after: slots.tocAfter,
-                  }
+                  },
                 )
               : null,
             h(
@@ -115,7 +115,7 @@ export default defineComponent({
               {
                 before: slots.contentBefore,
                 after: slots.contentAfter,
-              }
+              },
             ),
             h(PageMeta),
             h(PageNav),
@@ -125,8 +125,8 @@ export default defineComponent({
                 })
               : null,
             slots.bottom?.(),
-          ]
-        )
+          ],
+        ),
       );
   },
 });
