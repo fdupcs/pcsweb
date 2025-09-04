@@ -9,7 +9,8 @@
     "clean-dev": "vuepress-vite dev src --clean-cache --host localhost",
     "dev": "vuepress-vite dev src --host localhost",
     "remote-dev": "vuepress-vite dev src",
-    "update-package": "pnpm dlx vp-update"
+    "update-package": "pnpm dlx vp-update",
+    "format": "prettier --write src"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
