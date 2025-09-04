@@ -86,7 +86,8 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 <Anaconda 安装路径>\Library\bin
 ```
 
-> 例如，Anaconda 安装在 ``D:\anaconda3``，那么要添加的变量就为
+> 例如，Anaconda 安装在 `D:\anaconda3`，那么要添加的变量就为
+>
 > ```text
 > D:\anaconda3
 > D:\anaconda3\Scripts
@@ -98,19 +99,19 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 然后依次点击 `确定` 完成设置
 
 ::: tip Anaconda 与 Python  
-当你安装 Anaconda 时，其自带的 Python 解释器会被添加到环境变量 `Path` 中。如果系统中已安装其他版本的 Python，系统会按照 `Path` 中的顺序进行查找，**谁在前，谁优先**。  
+当你安装 Anaconda 时，其自带的 Python 解释器会被添加到环境变量 `Path` 中。如果系统中已安装其他版本的 Python，系统会按照 `Path` 中的顺序进行查找，**谁在前，谁优先**。
 
 要查看当前环境中 `python` 的查找顺序，使用以下命令：
 
-::: tabs#shell  
+::: tabs#shell
 
-@tab command  
+@tab command
 
 ```cmd
 where python
 ```
 
-@tab PowerShell  
+@tab PowerShell
 
 ```powershell
 where.exe python
@@ -154,7 +155,7 @@ bash Anaconda3-2024.10-1-MacOSX-x86_64.sh
 
 ![确认协议](./assets/conda/mac5.png)
 
-默认安装路径为 ``/home/<user>/anaconda3``
+默认安装路径为 `/home/<user>/anaconda3`
 安装程序提示「您是否希望安装程序通过运行 conda init 来初始化 Anaconda3？」
 推荐选择 `yes`，若选择 `no` 后续也可自行初始化。
 
@@ -181,7 +182,7 @@ bash Anaconda3-2024.10-1-Linux-x86_64.sh
 
 ![确认协议](./assets/conda/linux.png)
 
-按 `Enter` 安装到默认路径 ``/home/<user>/anaconda3``，也可以自定义路径
+按 `Enter` 安装到默认路径 `/home/<user>/anaconda3`，也可以自定义路径
 
 ![安装路径](./assets/conda/linux2.png)
 
@@ -338,11 +339,11 @@ conda env create -f environment.yml
 ```yml
 name: myenv
 channels:
-   - defaults
+  - defaults
 dependencies:
-   - python=3.9
-   - numpy
-   - pip:
+  - python=3.9
+  - numpy
+  - pip:
       - requests
 prefix: /home/<user>/anaconda3/envs/myenv
 ```
@@ -464,7 +465,7 @@ conda info
 **解决方法**：
 
 - Windows：
-  - 使用 `Anaconda Prompt` 和 `Anaconda PowerShell Prompt`  代替 `Command` 和 `PowerShell`
+  - 使用 `Anaconda Prompt` 和 `Anaconda PowerShell Prompt` 代替 `Command` 和 `PowerShell`
   - [编辑环境变量](#配置环境变量)
 - macOS/Linux：
 
@@ -500,6 +501,7 @@ Set-ExecutionPolicy RemoteSigned
 ```powershell
 Get-ExecutionPolicy
 ```
+
 再进行初始化
 
 ```powershell
