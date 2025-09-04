@@ -1,6 +1,6 @@
 ---
 home: true
-layout: BlogHome
+layout: Blog
 icon: home
 title: PCService 志愿者服务队
 heroImage: /assets/logo.png
