@@ -17,7 +17,7 @@ export default defineUserConfig({
   alias: {
     "@theme-hope/components/base/PageContent": path.resolve(
       __dirname,
-      "./components/PageContent.ts"
+      "./components/PageContent.ts",
     ),
   },
 });
