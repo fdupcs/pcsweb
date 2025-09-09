@@ -72,7 +72,7 @@ export default defineComponent({
                     src: withBase(frontmatter.value.cover),
                     alt: "",
                     "no-view": "",
-                  })
+                  }),
                 )
               : null,
             h(BreadCrumb),
@@ -87,8 +87,8 @@ export default defineComponent({
                 })
               : null,
             slots.pageBottom?.(),
-          ]
-        )
+          ],
+        ),
       );
   },
 });
