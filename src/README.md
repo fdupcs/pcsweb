@@ -9,4 +9,5 @@ heroFullScreen: true
 tagline: 拯救全校师生的生产力危机
 bgImage: /assets/background.png
 bgImageDark: /assets/background.png
+order: 2
 ---

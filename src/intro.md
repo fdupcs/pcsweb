@@ -9,6 +9,7 @@ name: PCService志愿者服务队
 titles:
   - 为复旦师生免费提供计算机类问题咨询与帮助
 footer: false
+order: 1
 ---
 
 ## PCService 志愿者服务队
