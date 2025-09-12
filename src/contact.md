@@ -4,6 +4,7 @@ isOriginal: true
 icon: circle-user
 article: false
 timeline: false
+order: 4
 ---
 
 ## PCS 值班时间与队员专长表

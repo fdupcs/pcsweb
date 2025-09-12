@@ -4,6 +4,8 @@ index: false
 article: false
 timeline: false
 icon: laptop-code
+dir:
+  order: 3
 # category:
 #   - 使用指南
 ---

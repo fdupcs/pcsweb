@@ -22,6 +22,8 @@ export default hopeTheme(
 
     sidebar,
 
+    sidebarSorter: ["order", "title", "filename"],
+
     license: "CC BY-NC 4.0",
 
     favicon: "/assets/icon.png",
