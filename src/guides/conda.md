@@ -1,5 +1,5 @@
 ---
-title: Conda 教程
+title: Anaconda 安装和使用教程
 author: kaifeng
 isOriginal: true
 icon: box-open
@@ -18,13 +18,11 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 
 ## 安装 Anaconda
 
-访问 [Anaconda 官网](https://www.anaconda.com/download) ，后续的所有操作均不需要注册账号，可直接点击 `Skip registration` 跳过注册。
+访问 [Anaconda 官方下载页面](https://www.anaconda.com/download/success) 。下载对应系统的安装包。
 
 ![conda 下载](./assets/conda/download.png)
 
-下载对应系统的安装包
-
-![conda 下载](./assets/conda/download2.png)
+也可以访问 [清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/) 下载对应版本。
 
 ### Windows 系统安装
 
@@ -99,7 +97,7 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac、
 然后依次点击 `确定` 完成设置
 
 ::: tip Anaconda 与 Python  
-当你安装 Anaconda 时，其自带的 Python 解释器会被添加到环境变量 `Path` 中。如果系统中已安装其他版本的 Python，系统会按照 `Path` 中的顺序进行查找，**谁在前，谁优先**。
+当你安装 Anaconda 时，其自带的 Python 解释器会被添加到环境变量 `Path` 中。如果系统中已安装其他版本的 Python，系统会按照 `Path` 中的顺序进行查找，**在前的优先生效**。
 
 要查看当前环境中 `python` 的查找顺序，使用以下命令：
 
@@ -148,6 +146,7 @@ Get-Command python
 下载安装脚本后，在终端中执行以下命令
 
 ```bash
+# 请替换成所下载的版本
 bash Anaconda3-2024.10-1-MacOSX-x86_64.sh
 ```
 
