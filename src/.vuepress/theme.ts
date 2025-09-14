@@ -76,6 +76,7 @@ export default hopeTheme(
       imgSize: true,
       imgLazyload: true,
       align: true,
+      sup: true,
       math: {
         type: "katex",
       },
