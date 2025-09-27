@@ -1,0 +1,99 @@
+{
+  "commitizen": {
+    "name": "cz_customize",
+    "customize": {
+      "message_template": "{{change_type}}{% if scope %}({{scope}}){% endif %}: {{subject}}{% if body %}\n\n{{body}}{% endif %}{% if footer %}\n\n{{footer}}{% endif %}",
+      "example": "new(guide/usage): 新增用户使用指南\n\n新增了完整的用户使用指南文档，包含安装、配置和使用说明。\n\nBREAKING CHANGE: 更新了API接口格式\n\nCloses #123",
+      "schema": "<type>(<scope>): <subject>\n\n<body>\n\n<footer>",
+      "schema_pattern": "^(new|update|fix|delete|config|docs|build|ci)(?:\\([^)]+\\))?:.+",
+      "bump_pattern": "^(new|update|fix|delete|config|docs|build|ci)(?:\\([^)]+\\))?:",
+      "bump_map": {
+        "new": "MINOR",
+        "update": "PATCH",
+        "fix": "PATCH",
+        "delete": "PATCH",
+        "config": "PATCH",
+        "docs": "PATCH",
+        "build": "PATCH",
+        "ci": "PATCH"
+      },
+      "change_type_order": ["new", "update", "fix", "delete", "config", "docs", "build", "ci"],
+      "info_path": "COMMIT_CONVENTION.md",
+      "info": "提交信息规范\n\n类型说明：\n- new: 新增文章\n- update: 更新文章中过时的内容\n- fix: 更正文章中的错误\n- delete: 删除文章\n- config: 修改配置\n- docs: 修改 src 外部的文档\n- build: 修改构建系统或外部依赖等\n- ci: 修改 ci\n\n格式：<类型>(<范围>): <简要总结>\n\n<详细内容>\n\n<脚注>",
+      "commit_parser": "^(?P<change_type>new|update|fix|delete|config|docs|build|ci)(?:\\((?P<scope>[^)]*)\\))?:\\s(?P<message>.*)",
+      "changelog_pattern": "^(new|update|fix|delete|config|docs|build|ci)(?:\\([^)]+\\))?:",
+      "change_type_map": {
+        "new": "新增",
+        "update": "更新",
+        "fix": "修复",
+        "delete": "删除",
+        "config": "配置",
+        "docs": "文档",
+        "build": "构建",
+        "ci": "CI"
+      },
+      "questions": [
+        {
+          "type": "list",
+          "name": "change_type",
+          "message": "选择修改类型",
+          "choices": [
+            {
+              "value": "new",
+              "name": "new: 新增文章"
+            },
+            {
+              "value": "update",
+              "name": "update: 更新文章中过时的内容"
+            },
+            {
+              "value": "fix",
+              "name": "fix: 更正文章中的错误"
+            },
+            {
+              "value": "delete",
+              "name": "delete: 删除文章"
+            },
+            {
+              "value": "config",
+              "name": "config: 修改配置"
+            },
+            {
+              "value": "docs",
+              "name": "docs: 修改 src 外部的文档"
+            },
+            {
+              "value": "build",
+              "name": "build: 修改构建系统或外部依赖等"
+            },
+            {
+              "value": "ci",
+              "name": "ci: 修改 ci"
+            }
+          ]
+        },
+        {
+          "type": "input",
+          "name": "scope",
+          "message": "输入修改范围（文章路径或修改的文件名）"
+        },
+        {
+          "type": "input",
+          "name": "subject",
+          "message": "输入修改内容的简要总结"
+        },
+        {
+          "type": "input",
+          "name": "body",
+          "message": "输入额外信息",
+          "multiline": true
+        },
+        {
+          "type": "input",
+          "name": "footer",
+          "message": "输入脚注"
+        }
+      ]
+    }
+  }
+}
