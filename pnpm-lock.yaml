@@ -20,6 +20,9 @@ importers:
       '@waline/client':
         specifier: ^3.6.0
         version: 3.6.0
+      katex:
+        specifier: ^0.16.22
+        version: 0.16.22
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -37,7 +40,7 @@ importers:
         version: 2.0.0-rc.94(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       vuepress-theme-hope:
         specifier: 2.0.0-rc.94
-        version: 2.0.0-rc.94(@waline/client@3.6.0)(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
+        version: 2.0.0-rc.94(@waline/client@3.6.0)(katex@0.16.22)(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
 
 packages:
 
@@ -1240,6 +1243,10 @@ packages:
     resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
     engines: {node: '>=20'}
 
+  commander@8.3.0:
+    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
+    engines: {node: '>= 12'}
+
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
@@ -1554,6 +1561,10 @@ packages:
 
   jsonfile@6.2.0:
     resolution: {integrity: sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==}
+
+  katex@0.16.22:
+    resolution: {integrity: sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==}
+    hasBin: true
 
   kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
@@ -2633,12 +2644,13 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.1.0
 
-  '@mdit/plugin-katex-slim@0.23.1(markdown-it@14.1.0)':
+  '@mdit/plugin-katex-slim@0.23.1(katex@0.16.22)(markdown-it@14.1.0)':
     dependencies:
       '@mdit/helper': 0.22.1(markdown-it@14.1.0)
       '@mdit/plugin-tex': 0.22.1(markdown-it@14.1.0)
       '@types/markdown-it': 14.1.2
     optionalDependencies:
+      katex: 0.16.22
       markdown-it: 14.1.0
 
   '@mdit/plugin-mark@0.22.1(markdown-it@14.1.0)':
@@ -3306,14 +3318,16 @@ snapshots:
       - markdown-it
       - typescript
 
-  '@vuepress/plugin-markdown-math@2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))':
+  '@vuepress/plugin-markdown-math@2.0.0-rc.112(katex@0.16.22)(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))':
     dependencies:
-      '@mdit/plugin-katex-slim': 0.23.1(markdown-it@14.1.0)
+      '@mdit/plugin-katex-slim': 0.23.1(katex@0.16.22)(markdown-it@14.1.0)
       '@mdit/plugin-mathjax-slim': 0.23.1(markdown-it@14.1.0)
       '@types/markdown-it': 14.1.2
       '@vuepress/helper': 2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       vue: 3.5.21
       vuepress: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21)
+    optionalDependencies:
+      katex: 0.16.22
     transitivePeerDependencies:
       - markdown-it
       - typescript
@@ -3654,6 +3668,8 @@ snapshots:
   comma-separated-tokens@2.0.3: {}
 
   commander@14.0.0: {}
+
+  commander@8.3.0: {}
 
   concat-map@0.0.1:
     optional: true
@@ -4001,6 +4017,10 @@ snapshots:
       universalify: 2.0.1
     optionalDependencies:
       graceful-fs: 4.2.11
+
+  katex@0.16.22:
+    dependencies:
+      commander: 8.3.0
 
   kind-of@6.0.3: {}
 
@@ -4704,7 +4724,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vuepress-theme-hope@2.0.0-rc.94(@waline/client@3.6.0)(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21)):
+  vuepress-theme-hope@2.0.0-rc.94(@waline/client@3.6.0)(katex@0.16.22)(markdown-it@14.1.0)(sass-embedded@1.92.0)(sass@1.92.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21)):
     dependencies:
       '@vuepress/helper': 2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
@@ -4722,7 +4742,7 @@ snapshots:
       '@vuepress/plugin-markdown-hint': 2.0.0-rc.112(markdown-it@14.1.0)(vue@3.5.21)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       '@vuepress/plugin-markdown-image': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       '@vuepress/plugin-markdown-include': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
-      '@vuepress/plugin-markdown-math': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
+      '@vuepress/plugin-markdown-math': 2.0.0-rc.112(katex@0.16.22)(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       '@vuepress/plugin-markdown-preview': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       '@vuepress/plugin-markdown-stylize': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
       '@vuepress/plugin-markdown-tab': 2.0.0-rc.112(markdown-it@14.1.0)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(sass-embedded@1.92.0)(sass@1.92.0)(stylus@0.54.8)(yaml@2.8.1))(vue@3.5.21))
