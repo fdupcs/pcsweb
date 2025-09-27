@@ -35,13 +35,6 @@ order: 4
 ![PCService 日常答疑群 =200x200](/assets/medias/QQ-dark.png#dark)](https://qm.qq.com/q/BqsEh9fGi6)
 :::
 
-## PCService 服务队 QQ 频道
-
-::: center
-[![PCService 服务队 QQ 频道 =200x200](/assets/medias/QQChannel-light.png#light)
-![PCService 服务队 QQ 频道 =200x200](/assets/medias/QQChannel-dark.png#dark)](https://pd.qq.com/s/ealld0rtu?businessType=5)
-:::
-
 ## PCService 服务队预约登记小程序
 
 ::: center
