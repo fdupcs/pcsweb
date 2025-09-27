@@ -15,7 +15,7 @@ order: 7
 
 <!-- more -->
 
-## Textlive 安装
+## TeX Live 安装
 
 为了能够在本地部署 $\LaTeX$ ，首先我们需要下载一个 TeX Live 发行版安装包，由于安装包大小很大，因此我们选择清华源镜像下载：[清华源 TeX 安装包下载](https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/)选择 `texlive2025.iso`下载（本文写作时间为 2025 年，因此最新版为 2025）：
 
