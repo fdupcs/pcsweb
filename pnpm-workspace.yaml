@@ -1,0 +1,7 @@
+# 过去需要强制指定版本，现在似乎可以自动使用 0.25.0 了
+# overrides:
+#   esbuild: ^0.25.0
+
+onlyBuiltDependencies:
+  - esbuild
+  - "@parcel/watcher"
