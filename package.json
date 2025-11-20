@@ -13,23 +13,16 @@
     "format": "prettier --write src"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.24",
-    "@vuepress/helper": "2.0.0-rc.112",
-    "@waline/client": "^3.6.0",
-    "katex": "^0.16.22",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/helper": "2.0.0-rc.118",
+    "@waline/client": "^3.8.0",
+    "katex": "^0.16.25",
     "prettier": "^3.6.2",
-    "sass-embedded": "^1.92.0",
-    "vue": "^3.5.21",
-    "vuepress": "2.0.0-rc.24",
-    "vuepress-shared": "2.0.0-rc.94",
-    "vuepress-theme-hope": "2.0.0-rc.94"
+    "sass-embedded": "^1.93.3",
+    "vue": "^3.5.24",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-shared": "2.0.0-rc.97",
+    "vuepress-theme-hope": "2.0.0-rc.98"
   },
-  "pnpm": {
-    "overrides": {
-      "esbuild": "^0.25.0"
-    },
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
-  }
+  "packageManager": "pnpm@10.22.0+sha512.bf049efe995b28f527fd2b41ae0474ce29186f7edcb3bf545087bd61fbbebb2bf75362d1307fda09c2d288e1e499787ac12d4fcb617a974718a6051f2eee741c"
 }
