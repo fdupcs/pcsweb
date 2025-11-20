@@ -7,7 +7,7 @@ date: 2025-03-09
 category: 教程
 tag:
   - Windows
-order: 1
+order: 1.5
 ---
 
 本文介绍了 Windows 安装/重新安装的基本方式。
