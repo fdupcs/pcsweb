@@ -7,7 +7,7 @@ date: 2026-03-16
 category: 教程
 tag:
   - Markdown
-  - VS code
+  - VS Code
 order: 9
 ---
 
@@ -117,7 +117,7 @@ pandoc -o custom-reference.docx --print-default-data-file reference.docx
 
 打开 `custom-reference.docx`。
 
-![custom-reference.docx](assets/pandoc-markdown/7.png)
+![custom-reference.docx](./assets/pandoc-markdown/7.png)
 
 修改样式并保存。
 
